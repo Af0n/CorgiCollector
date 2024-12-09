@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 241714827}
   - component: {fileID: 241714830}
   - component: {fileID: 241714829}
-  - component: {fileID: 241714828}
   m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
@@ -153,27 +152,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 330585546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &241714828
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241714826}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &241714829
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -798,10 +776,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160505683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465b81e4916edd04da27e858342b12c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a2bbfb49e3639048b44dbf29fb83866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sensitivity: 10
+  Speed: 5
   CameraTransform: {fileID: 330585546}
 --- !u!1 &1461527440
 GameObject:
@@ -847,7 +826,6 @@ GameObject:
   - component: {fileID: 1805676020}
   - component: {fileID: 1805676023}
   - component: {fileID: 1805676022}
-  - component: {fileID: 1805676021}
   m_Layer: 3
   m_Name: Sphere
   m_TagString: Untagged
@@ -870,27 +848,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1461527441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1805676021
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805676019}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1805676022
 MeshRenderer:
   m_ObjectHideFlags: 0
