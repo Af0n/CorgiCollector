@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Gravity
   m_EditorClassIdentifier: 
   Rate: 9.81
-  GroundedRate: 1
+  GroundedRate: 5
