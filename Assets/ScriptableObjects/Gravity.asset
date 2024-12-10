@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e2714da04d777d449ddbf1a4ca183d7, type: 3}
   m_Name: Gravity
   m_EditorClassIdentifier: 
-  Rate: 20
+  Rate: 10
   GroundedRate: 3
