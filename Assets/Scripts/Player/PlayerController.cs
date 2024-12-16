@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     private InputAction look;
     private InputAction move;
     private InputAction jump;
+    private InputAction attack;
 
     private CharacterController controller;
     private CharControllerJump jumper;
