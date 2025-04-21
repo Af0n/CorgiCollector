@@ -7,6 +7,7 @@ public class PopulateDisplay : MonoBehaviour
 {
     public Transform Container;
     public Transform LevelPanel;
+    public Transform TotalClose;
     [Header("Texts")]
     public TextMeshProUGUI TitleDisplay;
     public TextMeshProUGUI LevelDisplay;
@@ -24,6 +25,7 @@ public class PopulateDisplay : MonoBehaviour
     public Image LevelBG;
     public Image Progress;
     public Image WhatIf;
+    public Image CorgiLooks;
     [Header("Misc")]
     public Corgi TargetCorgi;
     public FlavorColors flavorColors;
@@ -74,10 +76,10 @@ public class PopulateDisplay : MonoBehaviour
 
         TitleDisplay.text = TargetCorgi.Title;
 
-        Color flavorColor = flavorColors.GetFlavorColor(TargetCorgi.flavor);
-        Color accentColor = flavorColors.GetFlavorAccentColor(TargetCorgi.flavor);
+        Color flavorColor = flavorColors.GetFlavorColor(TargetCorgi.Flavor);
+        Color accentColor = flavorColors.GetFlavorAccentColor(TargetCorgi.Flavor);
 
-        FlavorDisplay.sprite = flavorColors.GetFlavorSprite(TargetCorgi.flavor);
+        FlavorDisplay.sprite = flavorColors.GetFlavorSprite(TargetCorgi.Flavor);
         FlavorDisplay.color = flavorColor;
 
         LevelBG.color = accentColor;
@@ -103,10 +105,12 @@ public class PopulateDisplay : MonoBehaviour
         }else{
             LevelUpLabel.text = levelLabelMssg;
         }
+
+        CorgiLooks.sprite = TargetCorgi.Splash;
         
         Progress.fillAmount = TargetCorgi.BonesPercent;
 
-        SetTags(TargetCorgi.tagLevel, TargetCorgi.flavor);
+        SetTags(TargetCorgi.tagLevel, TargetCorgi.Flavor);
 
         FluffDisplay.text = TargetCorgi.InnateFluff.ToString();
         BiteDisplay.text = TargetCorgi.InnateBite.ToString();
@@ -150,6 +154,7 @@ public class PopulateDisplay : MonoBehaviour
     public void DoDisplay(Corgi corgi)
     {
         TargetCorgi = corgi;
+        TotalClose.gameObject.SetActive(true);
         DisplayCorgi();
     }
 
@@ -189,6 +194,8 @@ public class PopulateDisplay : MonoBehaviour
         LevelPanelAnim.SetBool("Toggled", false);
         TagsPanelAnim.SetBool("Toggled", false);
         TabsAnim.SetBool("Toggled", false);
+
+        TotalClose.gameObject.SetActive(false);
     }
 
     public void AddTag(){

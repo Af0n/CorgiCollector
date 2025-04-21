@@ -4,6 +4,8 @@ using UnityEngine;
 public class CorgiStats : ScriptableObject
 {
     public string title;
+    public Sprite splash, portrait;
+    public Flavor flavor;
     [Header("Fluff (Health)")]
     public float baseFluff;
     // baseFluff bonus per level. Percentage of StarFluff

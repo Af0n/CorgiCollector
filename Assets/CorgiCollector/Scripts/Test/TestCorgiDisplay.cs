@@ -9,8 +9,7 @@ public class TestCorgiDisplay : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            popul.TargetCorgi = testCorg;
-            popul.DisplayCorgi();
+            popul.DoDisplay(testCorg);
         }
     }
 }

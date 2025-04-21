@@ -7,14 +7,25 @@ public class Corgi : MonoBehaviour
 {
     public int level;
     public int tagLevel;
-    public Flavor flavor;
     public int bones;
+
+    public Flavor Flavor{
+        get { return stats.flavor; }
+    }
 
     public CorgiStats stats;
 
     public string Title
     {
         get { return stats.title; }
+    }
+
+    public Sprite Splash{
+        get { return stats.splash; }
+    }
+
+    public Sprite Portrait{
+        get { return stats.portrait; }
     }
 
     public float InnateFluff
@@ -118,7 +129,7 @@ public class Corgi : MonoBehaviour
     public override string ToString()
     {
         string result = $"Name: {stats.title}\n";
-        result += $"Flavor: {Flavors.GetName(flavor)}\n";
+        result += $"Flavor: {Flavors.GetName(Flavor)}\n";
         result += $"Level: {level}\n";
         result += $"Tags: {tagLevel}\n";
         result += $"Innate Fluff: {InnateFluff}\n";
