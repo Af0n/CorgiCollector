@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1d6939df8b245449c5261cef407019, type: 3}
+  m_Name: Testler
+  m_EditorClassIdentifier: 
+  title: M'aiq the Tester
+  baseFluff: 100
+  fluffGrowth: 0.2
+  fluffStarGrowth: 0.5
+  baseBite: 20
+  biteGrowth: 0.4
+  biteStarGrowth: 0.4
+  baseChonk: 5
+  chonkGrowth: 0.1
+  chonkStarGrowth: 0.25

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02616d08ea028e24c90b6a3d2e6ef8ec, type: 3}
+  m_Name: FlavorColors
+  m_EditorClassIdentifier: 
+  Sweet: {r: 0, g: 0.44705883, b: 0.69803923, a: 1}
+  Spicy: {r: 0.8352941, g: 0.36862746, b: 0, a: 1}
+  Salty: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+  Savory: {r: 0, g: 0.61960787, b: 0.4509804, a: 1}
+  Sour: {r: 0.78431374, g: 0.78431374, b: 0, a: 1}
+  Unknown: {r: 0, g: 0, b: 0, a: 1}
+  SweetAccent: {r: 0, g: 0.22352941, b: 0.34901962, a: 1}
+  SpicyAccent: {r: 0.41568628, g: 0.18431373, b: 0, a: 1}
+  SaltyAccent: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+  SavoryAccent: {r: 0, g: 0.30980393, b: 0.22745098, a: 1}
+  SourAccent: {r: 0.39215687, g: 0.39215687, b: 0, a: 1}
+  UnknownAccent: {r: 1, g: 0, b: 1, a: 1}
+  SweetIcon: {fileID: 21300000, guid: dc8d214f313bffa49b957a2e32dd45ff, type: 3}
+  SpicyIcon: {fileID: 21300000, guid: 7b24cc867e9325c4ea3c3b048c0a2d14, type: 3}
+  SaltyIcon: {fileID: 21300000, guid: 8fe51c99127009244acd1b10f030fde8, type: 3}
+  SavoryIcon: {fileID: 21300000, guid: 3fdbc11517ff3de449932b2a35913234, type: 3}
+  SourIcon: {fileID: 21300000, guid: 48d33fe12ce5c4b40906b856675f11da, type: 3}
+  UnknownIcon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
