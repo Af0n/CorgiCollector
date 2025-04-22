@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1d6939df8b245449c5261cef407019, type: 3}
+  m_Name: Sally
+  m_EditorClassIdentifier: 
+  title: Sally the Salinator
+  splash: {fileID: 21300000, guid: 580b77deac4a0ae4899bd8e8369e3946, type: 3}
+  portrait: {fileID: 21300000, guid: 263e0809569be804ab2dc7e83615a757, type: 3}
+  flavor: 2
+  baseFluff: 500
+  fluffGrowth: 0.1
+  fluffStarGrowth: 0.5
+  baseBite: 500
+  biteGrowth: 0.1
+  biteStarGrowth: 0.5
+  baseChonk: 500
+  chonkGrowth: 0.1
+  chonkStarGrowth: 0.5

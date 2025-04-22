@@ -16,12 +16,12 @@ MonoBehaviour:
   splash: {fileID: 21300000, guid: 2eebc1e0d569d894f91c9efdcd75da04, type: 3}
   portrait: {fileID: 21300000, guid: 83cfc5bbdd980214bb84459b57410ae1, type: 3}
   flavor: 3
-  baseFluff: 60
-  fluffGrowth: 0.1
-  fluffStarGrowth: 0.2
-  baseBite: 100
-  biteGrowth: 0.2
-  biteStarGrowth: 0.3
-  baseChonk: 50
-  chonkGrowth: 0.2
-  chonkStarGrowth: 0.1
+  baseFluff: 678
+  fluffGrowth: 0.12
+  fluffStarGrowth: 0.23
+  baseBite: 123
+  biteGrowth: 0.89
+  biteStarGrowth: 0.45
+  baseChonk: 234
+  chonkGrowth: 0.34
+  chonkStarGrowth: 0.45
